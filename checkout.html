@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Community Library</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <img src="./Assets/Frame.png" alt="Library Logo" />
+        <a href="./index.html" class="logo">Community Library</a>
+      </div>
+
+      <div class="nav-right">
+        <ul>
+          <li><a href="./login.html" class="nav">Log In</a></li>
+          <li><a href="#" class="nav">Locations</a></li>
+          <li>
+            <a href="#" class="nav">Get A Library Card</a>
+          </li>
+          <li><a href="./about.html" class="nav">About Us</a></li>
+        </ul>
+        <button>Donate</button>
+      </div>
+    </nav>
+    <main>
+      <section class="check-out">
+        <div class="list-tab">
+          <img src="./Assets/list.png" alt="List Icon" />
+          <p>Check out list</p>
+        </div>
+      </section>
+      <section class="check-search">
+        <input type="text" name="search" placeholder="Search" />
+        <input type="button" value="Filter" />
+      </section>
+      <section class="table">
+        <table>
+          <tr>
+            <th>
+              <img src="./Assets/Frame 47.png" alt="" />
+              <img src="./Assets/chevron-down.png" alt="" />
+            </th>
+            <th>Name</th>
+            <th>Barcode Number</th>
+            <th>Return Date</th>
+            <th>Pick Up Date</th>
+            <th>Actual Return Date</th>
+            <th>Overdue Fee</th>
+          </tr>
+          <tr>
+            <td class="grey">1 <img src="./Assets/Blue Star.png" alt="" /></td>
+            <td>Book 1</td>
+            <td>234516162545267182182112</td>
+            <td>01/02/2023</td>
+            <td>01/02/2023</td>
+            <td>Pending</td>
+            <td>$0</td>
+          </tr>
+          <tr>
+            <td class="grey">2 <img src="./Assets/Blue Star.png" alt="" /></td>
+            <td>Book 2</td>
+            <td>234516162545267182182112</td>
+            <td>10/14/2022</td>
+            <td>10/04/2022</td>
+            <td id="red">01/04/2023</td>
+            <td id="red">$5.5</td>
+          </tr>
+          <tr>
+            <td class="grey">3 <img src="./Assets/Blue Star.png" alt="" /></td>
+            <td>Book 3</td>
+            <td>234516162545267182182112</td>
+            <td>08/19/2022</td>
+            <td>08/09/2022</td>
+            <td id="red">09/09/2022</td>
+            <td id="red">$2</td>
+          </tr>
+          <tr>
+            <td class="grey">4 <img src="./Assets/Blue Star.png" alt="" /></td>
+            <td>Book 4</td>
+            <td>234516162545267182182112</td>
+            <td>05/22/2023</td>
+            <td>05/12/2023</td>
+            <td>05/22/2023</td>
+            <td>$0</td>
+          </tr>
+          <tr>
+            <td class="grey">5 <img src="./Assets/Blue Star.png" alt="" /></td>
+            <td>Book 5</td>
+            <td>234516162545267182182112</td>
+            <td>04/22/2023</td>
+            <td>03/22/2023</td>
+            <td id="red">05/22/2023</td>
+            <td id="red">$1</td>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
